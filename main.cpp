@@ -11,5 +11,6 @@ int main() {
     hypLogger.writer<File>("File Logging");
     std::cout << hypLogger.getData<Console>()<<std::endl;
     std::cout << hypLogger.getData<File>()<<std::endl;
+    std::cout << hypLogger.getData<QTGUI>()<<std::endl;
     return 0;
 }
